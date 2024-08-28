@@ -1,0 +1,165 @@
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    width: 100%; /* Asegura que la fila ocupe todo el ancho del contenedor */
+    justify-content: space-between; /* Distribuye los elementos al máximo espacio entre ellos */
+    align-items: center;
+}
+
+.four.columns {
+    flex-basis: auto; /* Ajusta automáticamente el tamaño de la columna del logo */
+}
+
+.two.columns.u-pull-right {
+    flex-basis: auto; /* Ajusta automáticamente el tamaño de la columna del carrito */
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+    align-items: center;
+}
+
+.submenu {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#carrito {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+}
+
+#Home {
+    background-image: url('assets/img/jordan.PNG'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: #fff; 
+    padding: 50px 0; 
+    text-align: center;
+}
+
+.contenido-hero {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#buscador {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-buscador {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.submit-buscador:hover {
+    background-color: #555;
+}
+
+.barra {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.barra .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1, .column2, .column3 {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.column1 p, .column2 p, .column3 p {
+    margin: 0;
+    font-size: 18px;
+}
+
+#list-shoes {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.encabezado {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-shoes {
+    width: 100%;
+    height: auto;
+}
+
+.info-card {
+    padding: 20px;
+}
+
+.info-card h4 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.info-card p {
+    margin: 5px 0;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.agregar-carrito {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.agregar-carrito:hover {
+    background-color: #555;
+}
